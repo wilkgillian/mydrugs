@@ -12,7 +12,7 @@ export default function Login() {
       </div>
       <h2>
         Faça login ou{' '}
-        <Link href="Cadastro">
+        <Link href="/Cadastro">
           <a>cadastre-se</a>
         </Link>{' '}
         para ver os produtos.
@@ -26,7 +26,9 @@ export default function Login() {
         <input type="password" placeholder="********" />
       </label>
       <button type="submit">
-        <IoIosLogIn />
+        <Link href="/Home">
+          <IoIosLogIn />
+        </Link>
       </button>
     </div>
   );
