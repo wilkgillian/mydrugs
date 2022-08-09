@@ -1,0 +1,72 @@
+.container {
+  width: 30rem;
+  height: 35rem;
+  border: 1px solid #08e7f7;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  transition: 0.5s;
+  div {
+    width: 100%;
+    border-bottom: 1px solid #08e7f7;
+    padding-bottom: 2rem;
+    h1 {
+      margin: auto;
+      font-weight: normal;
+      font-size: 2rem;
+      text-align: center;
+      strong {
+        font-weight: bold;
+        text-decoration: underline #fb00ff;
+        &:hover {
+          color: #fb00ff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 1rem;
+    a {
+      text-decoration: none;
+      color: #fb00ff;
+    }
+  }
+  label {
+    width: 100%;
+    color: #08e7f7;
+    input {
+      width: 100%;
+      height: 4rem;
+      border-radius: 0.5rem;
+      border: 1px solid #08e7f7;
+      background: none;
+      padding: 0.5rem;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  }
+
+  button {
+    width: 100%;
+    height: 4rem;
+    background: #08e7f7;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    &:hover {
+      color: #000000;
+      background: radial-gradient(circle, #fb00ff, #08e7f7);
+    }
+  }
+}
