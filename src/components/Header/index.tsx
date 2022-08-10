@@ -26,6 +26,7 @@ export default function Header() {
           <div className={styles.links}>
             <Link href="home">
               <a>
+                <span>1</span>
                 <AiOutlineHeart />
               </a>
             </Link>
@@ -36,6 +37,7 @@ export default function Header() {
             </Link>
             <Link href="home">
               <a>
+                <span>1</span>
                 <AiOutlineShoppingCart />
               </a>
             </Link>
