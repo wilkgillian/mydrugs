@@ -4,12 +4,11 @@
   margin: auto;
   height: 50px;
   padding: 0 2rem;
-  // background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-top: 1px solid #08e7f7;
   select{
-    content: " ";
     cursor: pointer;
     background: none;
     width: 20%;

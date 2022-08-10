@@ -1,8 +1,10 @@
+import styles from './style.module.scss';
+
 export default function Hero() {
   return (
-    <div>
-      <section>Categories</section>
-      <section>Swapper</section>
+    <div className={styles.container}>
+      <section>A</section>
+      <section>B</section>
     </div>
   );
 }
